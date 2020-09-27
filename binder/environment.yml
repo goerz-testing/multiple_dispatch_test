@@ -1,0 +1,9 @@
+name: binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip:
+    - matplotlib
+    - watermark
+    - git+https://github.com/goerz-testing/multiple_dispatch_test.git@master#egg=multiple_dispatch
