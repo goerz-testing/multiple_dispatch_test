@@ -11,10 +11,11 @@ Welcome to Multiple Dispatch Test's documentation!
 
 .. toctree::
    :maxdepth: 2
+   :glob:
    :caption: Contents:
 
    readme
-   tutorial.ipynb
+   notebooks/*
 
 
 API

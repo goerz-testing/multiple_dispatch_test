@@ -103,7 +103,7 @@ dist-check: bootstrap ## Check all dist files for correctness
 	@echo ""
 	$(TOX) -e run-cmd -- jupyter nbconvert --to notebook --execute --inplace --allow-errors --ExecutePreprocessor.kernel_name='python3'  --ExecutePreprocessor.timeout=-1 --config=/dev/null $< 2>&1 | tee $@
 
-notebooks: docs/tutorial.ipynb.log
+notebooks: docs/soures/notebooks/tutorial.ipynb.log
 
 jupyter-notebook: bootstrap ## run a notebook server for editing the examples
 	$(TOX) -e run-cmd -- jupyter notebook --config=/dev/null
