@@ -77,6 +77,7 @@ intersphinx_mapping = {
     'scipy': ('https://docs.scipy.org/doc/scipy/reference/', None),
     'numpy': ('https://docs.scipy.org/doc/numpy/', None),
     'matplotlib': ('https://matplotlib.org/', None),
+    'multimethod': ('https://multimethod.readthedocs.io/en/stable/', None),
 }
 
 # Add any paths that contain templates here, relative to this directory.
